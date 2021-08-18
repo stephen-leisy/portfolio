@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Ewert&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #f8f0e3;
+
+  /* font-family: 'Ewert', cursive; */
+  /* font-family: 'Ceviche One', cursive; */
+
+  /* font-family: 'Playfair Display', serif; */
+}
