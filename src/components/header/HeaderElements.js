@@ -46,6 +46,7 @@ export const NavBarContainer = styled.div`
 export const NavLogo = styled(RouterLink)`
   font-family: 'Permanent Marker', cursive;
   color: #f72585;
+  background: transparent;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   justify-self: flex-start;
   cursor: pointer;
