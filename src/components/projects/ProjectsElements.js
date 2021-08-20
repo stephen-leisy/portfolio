@@ -27,7 +27,7 @@ export const ProjectsHeading = styled.h1`
   display: flex;
   justify-content: center;
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
+  color: #d434da;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 `;
 
@@ -56,13 +56,15 @@ export const ProjectImage = styled.img`
   height: 30vmin;
   width: 30vmin;
 
-  border: #f72585 3px solid;
-  border-radius: 0px 15px;
+  border: black 3px solid;
+  border-radius: 30px;
+  box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
   &:hover {
     transition: all 0.3s ease-in-out;
 
-    border: #f72585 6px solid;
-    border-radius: 0px 15px;
+    border: #d434da 8px solid;
+    box-shadow: -0.6625rem -0.6625rem 0 #6bffff, 0.6625rem 0.6625rem 0 #ff819e;
+    border-radius: 50px;
     transform: scale(1.1);
   }
 `;

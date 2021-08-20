@@ -17,7 +17,7 @@ export const SocialLink = styled.button`
   background: transparent;
   border: none;
   font-size: 3.5rem;
-  color: #f72585;
+  color: #d434da;
   margin: 20px;
   /* height: 40px;
   width: 40px; */

@@ -56,7 +56,7 @@ export const SidebarLink = styled(ScrollLink)`
   list-style: none;
   transition: 0.2s ease-in-out;
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
+  color: #d434da;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 
   cursor: pointer;
@@ -77,13 +77,13 @@ export const SidebarRoute = styled(RouterLink)`
   white-space: nowrap;
   padding: 5px 22px;
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
+  color: #d434da;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   background-color: #6bffff;
   border-radius: 15px;
   font-size: 30px;
   outline: none;
-  border: #f72585 2px solid;
+  border: #d434da 2px solid;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -93,7 +93,7 @@ export const SidebarRoute = styled(RouterLink)`
 
     color: #6bffff;
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
-    background-color: #f72585;
+    background-color: #d434da;
     border: #6bffff 2px solid;
   }
 `;

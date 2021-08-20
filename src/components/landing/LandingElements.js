@@ -25,7 +25,8 @@ export const LandingBackground = styled.div`
 
 export const LandingText = styled.h1`
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
+  color: #d434da;
+  -webkit-text-stroke: 0.25px black;
   text-shadow: -0.1925rem -0.1925rem 0 #6bffff, 0.1925rem 0.1925rem 0 #ff819e;
   font-size: 12vmin;
   margin-left: 60px;
@@ -33,6 +34,7 @@ export const LandingText = styled.h1`
   @media screen and (max-width: 868px) {
     font-size: 8.5vmin;
     margin-left: 20px;
+    text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   }
 
   animation: fadeIn ease 5s;
@@ -49,14 +51,16 @@ export const LandingText = styled.h1`
 
 export const DelayText = styled.h3`
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
-  text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+  color: #d434da;
+  -webkit-text-stroke: 0.25px black;
+  text-shadow: -0.1925rem -0.1925rem 0 #6bffff, 0.1925rem 0.1925rem 0 #ff819e;
   font-size: 12vmin;
   margin-left: 60px;
 
   @media screen and (max-width: 868px) {
     font-size: 8.5vmin;
     margin-left: 20px;
+    text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   }
 
   @media screen and (max-height: 668px) {

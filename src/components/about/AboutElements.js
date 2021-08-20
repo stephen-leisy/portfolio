@@ -32,6 +32,8 @@ export const AboutMeWrapper = styled.div`
 
 export const AboutMeText = styled.p`
   width: 40%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
 
   @media screen and (max-width: 1068px) {
     width: 90%;
@@ -43,6 +45,8 @@ export const AboutMePic = styled.img`
   border-radius: 50%;
   height: 55vmin;
   width: 55vmin;
+  border: solid 3px black;
+  box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
 
   @media screen and (max-width: 1068px) {
     margin-top: 30px;
@@ -52,6 +56,7 @@ export const AboutMePic = styled.img`
 export const AboutHeader = styled.h1`
   padding-top: 90px;
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
+  color: #d434da;
+  -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 `;

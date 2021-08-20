@@ -9,12 +9,7 @@ export const ResumeWrapper = styled.div`
   margin: 10px 0;
 `;
 
-export const ResumeImg = styled.div`
-  background-image: url(Resume.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: inherit;
-  height: 100%;
-  width: 100%;
-  color: black;
+export const ResumeImg = styled.img`
+  height: 110vmin;
+  width: 80vmin;
 `;

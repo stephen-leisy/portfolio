@@ -36,7 +36,7 @@ export const NavBarContainer = styled.div`
   z-index: 1;
   width: 100vw;
   padding: 0 60px;
-  border-bottom: #f72585 6px solid;
+  border-bottom: #d434da 6px solid;
 
   /* max-width: 1400px; */
 
@@ -47,17 +47,22 @@ export const NavBarContainer = styled.div`
 
 export const NavLogo = styled(RouterLink)`
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
+  color: #d434da;
+  -webkit-text-stroke: 0.25px black;
   background: transparent;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 2.5rem;
+  font-size: 2.5vmin;
   display: flex;
   align-items: center;
   /* padding-right: 50px; */
   font-weight: bold;
   text-decoration: none;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -71,7 +76,8 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #f72585;
+    color: #d434da;
+    -webkit-text-stroke: 0.25px black;
     background: transparent;
   }
 `;
@@ -97,8 +103,9 @@ export const NavItem = styled.li`
 export const NavLinks = styled(ScrollLink)`
   font-family: 'Permanent Marker', cursive;
   background: transparent;
-  color: #f72585;
+  color: #d434da;
   text-shadow: -0.0625rem -0.0925rem 0 #6bffff, 0.0625rem 0.0625rem 0 #ff819e;
+  -webkit-text-stroke: 0.25px black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,7 +145,8 @@ export const ResumeLink = styled(RouterLink)`
   white-space: nowrap;
   padding: 10px 22px;
   font-family: 'Permanent Marker', cursive;
-  color: #f72585;
+  color: #d434da;
+  -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 
   font-size: 30px;
@@ -155,3 +163,5 @@ export const ResumeLink = styled(RouterLink)`
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
   }
 `;
+
+// old pink color #f72585
