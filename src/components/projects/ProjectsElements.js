@@ -56,6 +56,13 @@ export const ProjectImage = styled.img`
   height: 30vmin;
   width: 30vmin;
 
-  border: #f72585 1px solid;
+  border: #f72585 3px solid;
   border-radius: 0px 15px;
+  &:hover {
+    transition: all 0.3s ease-in-out;
+
+    border: #f72585 6px solid;
+    border-radius: 0px 15px;
+    transform: scale(1.1);
+  }
 `;

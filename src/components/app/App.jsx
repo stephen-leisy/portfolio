@@ -5,6 +5,7 @@ import Landing from '../landing/Landing';
 import About from '../about/About';
 import Projects from '../projects/Projects';
 import Links from '../links/Links';
+
 import './App.css';
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
       <About />
       <Projects />
       <Links />
+      {/* <Resume /> */}
     </>
   );
 }

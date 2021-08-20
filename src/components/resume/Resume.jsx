@@ -1,9 +1,10 @@
 import React from 'react';
+import { ResumeWrapper, ResumeImg } from './ResumeElements';
 
 export default function Resume() {
   return (
-    <div>
-      <h2>hire me</h2>
-    </div>
+    <ResumeWrapper>
+      <ResumeImg></ResumeImg>
+    </ResumeWrapper>
   );
 }

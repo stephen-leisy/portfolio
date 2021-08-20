@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 
 export const Nav = styled.nav`
-  background: rgba(248, 240, 227, 0.6);
+  background: rgba(248, 240, 227, 0.7);
   height: 7vh;
   width: 100vw;
   display: flex;
@@ -14,6 +14,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+
   /* border-bottom: #f72585 2px solid; */
 
   @media screen and (max-width: 960px) {
@@ -26,7 +27,8 @@ export const Nav = styled.nav`
 `;
 
 export const NavBarContainer = styled.div`
-  background: rgba(248, 240, 227, 0.6);
+  background: rgba(248, 240, 227, 0.8);
+  height: inherit;
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -34,7 +36,7 @@ export const NavBarContainer = styled.div`
   z-index: 1;
   width: 100vw;
   padding: 0 60px;
-  border-bottom: #f72585 2px solid;
+  border-bottom: #f72585 6px solid;
 
   /* max-width: 1400px; */
 
@@ -69,7 +71,8 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: white;
+    color: #f72585;
+    background: transparent;
   }
 `;
 
@@ -114,7 +117,7 @@ export const NavLinks = styled(ScrollLink)`
   &:hover {
     transition: all 0.2s ease-in-out;
 
-    color: #000000;
+    color: #6bffff;
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
   }
 `;
