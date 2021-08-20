@@ -41,6 +41,9 @@ export const AboutMeText = styled.p`
     width: 80%;
     /* height: 20%; */
     padding-bottom: 10px;
+    border: solid 3px #d434da;
+    border-radius: 15px;
+    padding: 20px 30px;
   }
 `;
 
