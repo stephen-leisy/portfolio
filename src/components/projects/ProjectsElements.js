@@ -40,19 +40,19 @@ export const ProjectLinkContainer = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* margin: 30px; */
 
   @media screen and (max-width: 1268px) {
-    width: 100%;
+    width: 60%;
   }
 `;
 
 export const ProjectLink = styled.button``;
 
 export const ProjectImage = styled.img`
-  height: 30vmin;
-  width: 30vmin;
+  height: 20vh;
+  width: 20vh;
 
   border: black 3px solid;
   border-radius: 30px;
@@ -64,8 +64,8 @@ export const ProjectImage = styled.img`
   }
 
   @media screen and (max-width: 1268px) {
-    width: 15vmin;
-    height: 15vmin;
+    width: 10vh;
+    height: 10vh;
   }
 `;
 
@@ -78,15 +78,7 @@ export const ProjectTitle = styled.h2`
   @media screen and (max-width: 1268px) {
     width: 15vmin;
     height: 15vmin;
-  }
-`;
-
-export const ProjectDescription = styled.p`
-  width: 100%;
-  font-family: 'Lato', sans-serif;
-  @media screen and (max-width: 1268px) {
-    width: 15vmin;
-    height: 15vmin;
+    display: none;
   }
 `;
 

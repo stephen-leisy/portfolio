@@ -37,9 +37,9 @@ export const AboutMeText = styled.p`
   font-size: 1.5rem;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 80%;
-    height: 20vh;
+    height: 20%;
     padding-bottom: 10px;
   }
 `;
@@ -52,9 +52,9 @@ export const AboutMePic = styled.img`
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
 
   @media screen and (max-width: 1268px) {
-    margin-top: 30px;
-    height: 40vmin;
-    width: 40vmin;
+    /* margin-top: 30px; */
+    height: 35vmin;
+    width: 35vmin;
   }
 `;
 
