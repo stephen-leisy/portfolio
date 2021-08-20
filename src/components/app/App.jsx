@@ -5,6 +5,7 @@ import Landing from '../landing/Landing';
 import About from '../about/About';
 import Projects from '../projects/Projects';
 import Links from '../links/Links';
+import Techstack from '../techstack/Techstack';
 
 import './App.css';
 
@@ -28,6 +29,7 @@ export default function App() {
       <Header toggle={toggle} />
       <Landing isVisible={isVisible} vanish={vanish} />
       <About />
+      <Techstack />
       <Projects />
       <Links />
       {/* <Resume /> */}
