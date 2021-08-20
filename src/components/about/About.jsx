@@ -13,10 +13,10 @@ export default function about() {
   return (
     <AboutContainer id="about">
       <AboutBackground>
-        <AboutHeader>Abount</AboutHeader>
+        <AboutHeader>Welcome!</AboutHeader>
         <AboutMeWrapper>
           <AboutMeText>
-            Hi there, I'm Stephen! I’m a Collaborative, self-starting,
+            I'm Stephen a collaborative, self-starting,
             full-stack software developer with a preference for front-end work.
             I believe web development is creative at its core and enjoy
             utilizing my technical skill and artistic background to build

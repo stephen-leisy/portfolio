@@ -37,8 +37,9 @@ export const AboutMeText = styled.p`
   font-size: 1.5rem;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
     width: 80%;
+    height: 20vh;
     padding-bottom: 10px;
   }
 `;
@@ -63,4 +64,8 @@ export const AboutHeader = styled.h1`
   color: #d434da;
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
+    padding-top: 80px;
+  }
 `;
