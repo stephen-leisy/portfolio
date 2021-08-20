@@ -19,7 +19,7 @@ export const AboutMeWrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   /* border: black 1px solid; */
-  padding: 20px 0px;
+  /* padding: 20px 0px; */
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     display: flex;
@@ -37,9 +37,9 @@ export const AboutMeText = styled.p`
   font-size: 1.5rem;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 80%;
-    height: 20%;
+    /* height: 20%; */
     padding-bottom: 10px;
   }
 `;
@@ -52,7 +52,7 @@ export const AboutMePic = styled.img`
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
 
   @media screen and (max-width: 1268px) {
-    /* margin-top: 30px; */
+    margin-top: 30px;
     height: 35vmin;
     width: 35vmin;
   }
@@ -66,6 +66,7 @@ export const AboutHeader = styled.h1`
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    padding-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 0;
   }
 `;

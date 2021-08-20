@@ -16,7 +16,7 @@ export const ProjectsBackground = styled.div`
 
 export const MyProjectsWrapper = styled.div`
   margin-top: 80px;
-  width: 80vw;
+  width: 90vw;
 
   display: flex;
   justify-content: center;
@@ -24,6 +24,7 @@ export const MyProjectsWrapper = styled.div`
   flex-direction: column;
   border: solid 3px #d434da;
   border-radius: 15px;
+  /* background: gray; */
 `;
 
 export const ProjectsHeading = styled.h1`
@@ -32,6 +33,11 @@ export const ProjectsHeading = styled.h1`
   font-family: 'Permanent Marker', cursive;
   color: #d434da;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+  background: transparent;
+
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const ProjectLinkContainer = styled.main`
@@ -41,14 +47,17 @@ export const ProjectLinkContainer = styled.main`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background: transparent;
   /* margin: 30px; */
 
-  @media screen and (max-width: 1268px) {
-    width: 60%;
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
+    width: 50vh;
   }
 `;
 
-export const ProjectLink = styled.button``;
+export const ProjectLink = styled.button`
+  background: transparent;
+`;
 
 export const ProjectImage = styled.img`
   height: 20vh;
@@ -57,15 +66,17 @@ export const ProjectImage = styled.img`
   border: black 3px solid;
   border-radius: 30px;
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
+  background: transparent;
+
   &:hover {
     transition: all 0.3s ease-in-out;
     border-radius: 50%;
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 1268px) {
-    width: 10vh;
-    height: 10vh;
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
+    width: 16vh;
+    height: 16vh;
   }
 `;
 
@@ -75,17 +86,18 @@ export const ProjectTitle = styled.h2`
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   padding-top: 10px;
-  @media screen and (max-width: 1268px) {
-    width: 15vmin;
-    height: 15vmin;
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
+    /* width: 10vmin;
+    height: 15vmin; */
     display: none;
   }
 `;
 
 export const Project = styled.div`
-  margin: 20px;
+  margin: 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: transparent;
 `;
