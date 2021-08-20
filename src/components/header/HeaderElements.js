@@ -53,7 +53,7 @@ export const NavLogo = styled(RouterLink)`
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 2.5vmin;
+  font-size: 4vmin;
   display: flex;
   align-items: center;
   /* padding-right: 50px; */

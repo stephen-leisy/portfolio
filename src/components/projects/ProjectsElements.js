@@ -61,10 +61,7 @@ export const ProjectImage = styled.img`
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
   &:hover {
     transition: all 0.3s ease-in-out;
-
-    border: #d434da 8px solid;
-    box-shadow: -0.6625rem -0.6625rem 0 #6bffff, 0.6625rem 0.6625rem 0 #ff819e;
-    border-radius: 50px;
+    border-radius: 50%;
     transform: scale(1.1);
   }
 `;

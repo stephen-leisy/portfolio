@@ -21,12 +21,13 @@ export const AboutMeWrapper = styled.div`
   /* border: black 1px solid; */
   padding: 20px 0px;
 
-  @media screen and (max-width: 1068px) {
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
+    height: 100%;
   }
 `;
 
@@ -35,8 +36,9 @@ export const AboutMeText = styled.p`
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
 
-  @media screen and (max-width: 1068px) {
-    width: 90%;
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
+    font-size: 1rem;
+    width: 80%;
     padding-bottom: 10px;
   }
 `;
@@ -48,8 +50,10 @@ export const AboutMePic = styled.img`
   border: solid 3px black;
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
 
-  @media screen and (max-width: 1068px) {
+  @media screen and (max-width: 1268px) {
     margin-top: 30px;
+    height: 30vmin;
+    width: 30vmin;
   }
 `;
 
