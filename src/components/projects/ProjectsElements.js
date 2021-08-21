@@ -33,6 +33,7 @@ export const ProjectsHeading = styled.h1`
   font-family: 'Permanent Marker', cursive;
   color: #d434da;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+  -webkit-text-stroke: 0.25px black;
   background: transparent;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {

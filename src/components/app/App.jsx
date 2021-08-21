@@ -12,9 +12,14 @@ import './App.css';
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
+  const [listOpen, setListOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleList = () => {
+    setListOpen(!listOpen);
   };
 
   const vanish = () => {
@@ -29,7 +34,7 @@ export default function App() {
       <Header toggle={toggle} />
       <Landing isVisible={isVisible} vanish={vanish} />
       <About />
-      <Techstack />
+      <Techstack listOpen={listOpen} toggleList={toggleList} />
       <Projects />
       <Links />
       {/* <Resume /> */}

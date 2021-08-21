@@ -18,6 +18,7 @@ export const SocialLink = styled.button`
   border: none;
   font-size: 3.5rem;
   color: #d434da;
+  -webkit-text-stroke: 0.25px black;
   margin: 20px;
   /* height: 40px;
   width: 40px; */
