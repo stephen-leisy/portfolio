@@ -40,6 +40,8 @@ export const AboutMeText = styled.p`
   font-size: 1.2rem;
   color: white;
   -webkit-text-stroke: 1.25px black;
+  border: solid 3px black;
+  box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     font-size: 0.7rem;

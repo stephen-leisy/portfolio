@@ -23,7 +23,7 @@ export const SocialLink = styled.button`
   /* height: 40px;
   width: 40px; */
   &:hover {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
     color: #6bffff;
   }
