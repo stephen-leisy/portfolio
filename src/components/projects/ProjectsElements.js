@@ -76,8 +76,10 @@ export const ProjectImage = styled.img`
   }
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    width: 16vh;
-    height: 16vh;
+    width: 18vh;
+    height: 18vh;
+    padding: 0 0;
+    margin: 0 0;
   }
 `;
 
@@ -90,15 +92,20 @@ export const ProjectTitle = styled.h2`
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     /* width: 10vmin;
     height: 15vmin; */
-    display: none;
+    /* display: none; */
+    font-size: 1rem;
   }
 `;
 
 export const Project = styled.div`
-  margin: 0 10px;
+  margin: 0 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background: transparent;
+
+  @media screen and (max-width: 1580px), screen and (max-height: 800px) {
+    margin: 0 20px;
+  }
 `;

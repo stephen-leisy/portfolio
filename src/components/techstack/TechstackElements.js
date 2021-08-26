@@ -5,7 +5,16 @@ export const TechstackWrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: ${({ listOpen }) => (listOpen ? '20vh' : '5vh')};
+
+  height: ${({
+    languageListOpen,
+    librariesListOpen,
+    databaseListOpen,
+    toolListOpen,
+  }) =>
+    languageListOpen || librariesListOpen || databaseListOpen || toolListOpen
+      ? '20vh'
+      : '15vh'};
 `;
 
 export const HeaderWrapper = styled.div`
@@ -58,6 +67,9 @@ export const HiddenList = styled.ul`
 export const Item = styled.li`
   list-style-type: none;
   font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  -webkit-text-stroke: 1.25px black;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     font-size: 0.6rem;

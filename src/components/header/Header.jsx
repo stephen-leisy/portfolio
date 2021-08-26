@@ -26,6 +26,7 @@ export default function Header({ toggle }) {
             <NavItem>
               <NavLinks to="about">about me</NavLinks>
             </NavItem>
+
             <NavItem>
               <NavLinks to="projects">recent projects</NavLinks>
             </NavItem>
@@ -55,4 +56,4 @@ export default function Header({ toggle }) {
     // </header>
   );
 }
-// 
+//

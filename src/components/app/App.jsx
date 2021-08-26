@@ -12,14 +12,29 @@ import './App.css';
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
-  const [listOpen, setListOpen] = useState(false);
+  const [languageListOpen, setLanguageListOpen] = useState(false);
+  const [librariesListOpen, setLibrariesListOpen] = useState(false);
+  const [databaseListOpen, setDatabaseListOpen] = useState(false);
+  const [toolListOpen, setToolListOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
-  const toggleList = () => {
-    setListOpen(!listOpen);
+  const toggleLanguage = () => {
+    setLanguageListOpen(!languageListOpen);
+  };
+
+  const toggleLibraries = () => {
+    setLibrariesListOpen(!librariesListOpen);
+  };
+
+  const toggleDatabase = () => {
+    setDatabaseListOpen(!databaseListOpen);
+  };
+
+  const toggleTools = () => {
+    setToolListOpen(!toolListOpen);
   };
 
   const vanish = () => {
@@ -34,7 +49,16 @@ export default function App() {
       <Header toggle={toggle} />
       <Landing isVisible={isVisible} vanish={vanish} />
       <About />
-      <Techstack listOpen={listOpen} toggleList={toggleList} />
+      <Techstack
+        languageListOpen={languageListOpen}
+        toggleLanguage={toggleLanguage}
+        librariesListOpen={librariesListOpen}
+        toggleLibraries={toggleLibraries}
+        databaseListOpen={databaseListOpen}
+        toggleDatabase={toggleDatabase}
+        toolListOpen={toolListOpen}
+        toggleTools={toggleTools}
+      />
       <Projects />
       <Links />
       {/* <Resume /> */}

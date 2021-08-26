@@ -11,11 +11,13 @@ export const AboutBackground = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+
   flex-direction: column;
 `;
 
 export const AboutMeWrapper = styled.div`
   display: flex;
+  margin-top: 10px;
   width: 80%;
   justify-content: space-around;
   align-items: center;
@@ -35,7 +37,9 @@ export const AboutMeWrapper = styled.div`
 export const AboutMeText = styled.p`
   width: 40%;
   font-family: 'Lato', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: white;
+  -webkit-text-stroke: 1.25px black;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     font-size: 0.7rem;
@@ -64,6 +68,7 @@ export const AboutMePic = styled.img`
 
 export const AboutHeader = styled.h1`
   padding-top: 90px;
+  padding-bottom: 40px;
   font-family: 'Permanent Marker', cursive;
   color: #d434da;
   -webkit-text-stroke: 0.25px black;
@@ -72,5 +77,7 @@ export const AboutHeader = styled.h1`
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     padding-top: 20px;
     padding-bottom: 0;
+    padding-right: 40px;
+    padding-left: 50px;
   }
 `;
