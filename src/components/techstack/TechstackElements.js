@@ -78,8 +78,8 @@ export const HiddenList = styled.ul`
 export const Item = styled.li`
   list-style-type: none;
   font-family: 'Lato', sans-serif;
-  font-size: 2rem;
-  color: white;
+  font-size: 1.7rem;
+  color: #d434da;
   -webkit-text-stroke: 1.25px black;
   background: transparent;
 

@@ -61,6 +61,7 @@ export const AboutMeText = styled.p`
   color: white;
   -webkit-text-stroke: 1.25px black;
   border: solid 3px black;
+  border-radius: 15px;
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
   padding: 40px;
 
