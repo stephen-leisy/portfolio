@@ -5,6 +5,7 @@ export const TechstackWrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  background: transparent;
 
   height: ${({
     languageListOpen,
@@ -13,13 +14,18 @@ export const TechstackWrapper = styled.div`
     toolListOpen,
   }) =>
     languageListOpen || librariesListOpen || databaseListOpen || toolListOpen
-      ? '20vh'
+      ? '25vh'
       : '15vh'};
+
+  @media screen and (min-width: 345px), screen and (max-height: 800px) {
+    padding-top: 40px;
+  }
 `;
 
 export const HeaderWrapper = styled.div`
   display: flex;
   justify-content: center;
+  background: transparent;
 `;
 
 export const TechstackHeader = styled.h2`
@@ -28,6 +34,7 @@ export const TechstackHeader = styled.h2`
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   -webkit-text-stroke: 0.25px black;
+  background: transparent;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     font-size: 1rem;
@@ -43,6 +50,7 @@ export const MyTechstack = styled.div`
 
 export const HeaderAndListBox = styled.div`
   margin: 0 10px;
+  background: transparent;
 `;
 
 export const Header = styled.h2`
@@ -50,6 +58,7 @@ export const Header = styled.h2`
   color: ${({ listOpen }) => (listOpen ? '#ff819e' : '#d434da')};
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+  background: transparent;
 
   &:hover {
     text-decoration: underline;
@@ -62,6 +71,7 @@ export const Header = styled.h2`
 
 export const HiddenList = styled.ul`
   visibility: ${({ listOpen }) => (listOpen ? 'visible' : 'hidden')};
+  background: transparent;
 `;
 
 export const Item = styled.li`
@@ -70,6 +80,7 @@ export const Item = styled.li`
   font-size: 1.2rem;
   color: white;
   -webkit-text-stroke: 1.25px black;
+  background: transparent;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     font-size: 0.6rem;

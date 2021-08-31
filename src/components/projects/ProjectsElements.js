@@ -8,6 +8,7 @@ export const ProjectsContainer = styled.div`
 
 export const ProjectsBackground = styled.div`
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,6 +18,7 @@ export const ProjectsBackground = styled.div`
 export const MyProjectsWrapper = styled.div`
   margin-top: 80px;
   width: 90vw;
+  background-color: #fffaf1;
 
   display: flex;
   justify-content: center;
@@ -42,8 +44,8 @@ export const ProjectsHeading = styled.h1`
 `;
 
 export const ProjectLinkContainer = styled.main`
-  height: 70vh;
-  width: 40%;
+  height: 80vh;
+  width: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,6 +56,10 @@ export const ProjectLinkContainer = styled.main`
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     width: 50vh;
   }
+
+  @media screen and (max-width: 345px), screen and (max-height: 800px) {
+    width: 70vh;
+  }
 `;
 
 export const ProjectLink = styled.button`
@@ -61,8 +67,8 @@ export const ProjectLink = styled.button`
 `;
 
 export const ProjectImage = styled.img`
-  height: 20vh;
-  width: 20vh;
+  height: 30vh;
+  width: 30vh;
 
   border: black 3px solid;
   border-radius: 30px;
@@ -76,8 +82,8 @@ export const ProjectImage = styled.img`
   }
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    width: 18vh;
-    height: 18vh;
+    width: 19vh;
+    height: 19vh;
     padding: 0 0;
     margin: 0 0;
   }
