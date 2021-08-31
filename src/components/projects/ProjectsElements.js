@@ -13,6 +13,10 @@ export const ProjectsBackground = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media screen and (max-width: 345px), screen and (max-height: 800px) {
+    padding-top: 15px;
+  }
 `;
 
 export const MyProjectsWrapper = styled.div`
