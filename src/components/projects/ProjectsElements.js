@@ -95,6 +95,7 @@ export const ProjectTitle = styled.h2`
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   padding-top: 10px;
+  background: transparent;
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
     /* width: 10vmin;
     height: 15vmin; */
