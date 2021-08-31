@@ -14,8 +14,8 @@ export const TechstackWrapper = styled.div`
     toolListOpen,
   }) =>
     languageListOpen || librariesListOpen || databaseListOpen || toolListOpen
-      ? '25vh'
-      : '15vh'};
+      ? '45vh'
+      : '25vh'};
 
   @media screen and (min-width: 345px), screen and (max-height: 800px) {
     padding-top: 40px;
@@ -30,7 +30,7 @@ export const HeaderWrapper = styled.div`
 
 export const TechstackHeader = styled.h2`
   color: #d434da;
-  font-size: 2rem;
+  font-size: 4rem;
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   -webkit-text-stroke: 0.25px black;
@@ -55,6 +55,7 @@ export const HeaderAndListBox = styled.div`
 
 export const Header = styled.h2`
   cursor: pointer;
+  font-size: ${({ listOpen }) => (listOpen ? '2.2rem' : '2rem')};
   color: ${({ listOpen }) => (listOpen ? '#ff819e' : '#d434da')};
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
@@ -77,7 +78,7 @@ export const HiddenList = styled.ul`
 export const Item = styled.li`
   list-style-type: none;
   font-family: 'Lato', sans-serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: white;
   -webkit-text-stroke: 1.25px black;
   background: transparent;
