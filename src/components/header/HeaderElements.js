@@ -14,6 +14,8 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  overflow-x: hidden;
+  border-bottom: #d434da 6px solid;
 
   /* border-bottom: #f72585 2px solid; */
 
