@@ -16,7 +16,7 @@ export const SocialButtons = styled.section`
 export const SocialLink = styled.button`
   background: transparent;
   border: none;
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: #d434da;
   -webkit-text-stroke: 0.25px black;
   margin: 20px;
@@ -26,5 +26,9 @@ export const SocialLink = styled.button`
     transition: all 0.2s ease-in-out;
 
     color: #6bffff;
+  }
+
+  @media screen and (max-width: 375px), screen and (max-height: 800px) {
+    font-size: 3.5rem;
   }
 `;

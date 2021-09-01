@@ -66,7 +66,7 @@ export const Header = styled.h2`
   }
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 `;
 
@@ -84,6 +84,6 @@ export const Item = styled.li`
   background: transparent;
 
   @media screen and (max-width: 1268px), screen and (max-height: 800px) {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 `;

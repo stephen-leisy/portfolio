@@ -25,6 +25,7 @@ export const AboutBackground = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   flex-direction: column;
 `;
@@ -74,6 +75,10 @@ export const AboutMeText = styled.p`
     border-radius: 15px;
     padding: 20px 30px;
   }
+
+  @media screen and (max-width: 375px), screen and (max-height: 800px) {
+    width: 100%;
+  }
 `;
 
 export const AboutMePic = styled.img`
@@ -91,8 +96,8 @@ export const AboutMePic = styled.img`
 `;
 
 export const AboutHeader = styled.h1`
-  padding-top: 90px;
-  padding-bottom: 40px;
+  /* padding-top: 90px; */
+  /* padding-bottom: 40px; */
   font-family: 'Permanent Marker', cursive;
   color: #d434da;
   -webkit-text-stroke: 0.25px black;
@@ -103,5 +108,18 @@ export const AboutHeader = styled.h1`
     padding-bottom: 0;
     padding-right: 40px;
     padding-left: 50px;
+    display: none;
+  }
+`;
+
+export const MobileHeader = styled.h2`
+  display: none;
+  font-family: 'Permanent Marker', cursive;
+  color: #d434da;
+  -webkit-text-stroke: 0.25px black;
+  text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+
+  @media screen and (max-width: 1268px), screen and (max-height: 800px) {
+    display: block;
   }
 `;
