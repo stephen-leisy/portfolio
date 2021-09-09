@@ -132,9 +132,11 @@ export const NavLinks = styled(ScrollLink)`
   }
   &:hover {
     transition: all 0.2s ease-in-out;
-    -webkit-text-stroke: 0.25px black;
+
     color: #6bffff;
+    -webkit-text-stroke: 0.25px black;
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
+    text-decoration: underline;
   }
 
   /* @media screen and (max-width: 1000px) {

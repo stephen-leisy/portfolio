@@ -14,11 +14,16 @@ import {
 } from './HeaderElements';
 
 export default function Header({ toggle }) {
+  function refreshPage() {
+    window.location.reload();
+  }
   return (
     <>
       <Nav>
         <NavBarContainer>
-          <NavLogo to="/">Stephen Leisy</NavLogo>
+          <NavLogo to="/" onClick={refreshPage}>
+            Stephen Leisy
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
