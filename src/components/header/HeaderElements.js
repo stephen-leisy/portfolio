@@ -56,7 +56,7 @@ export const NavLogo = styled(RouterLink)`
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   justify-self: flex-start;
   /* cursor: pointer; */
-  font-size: 4vmin;
+  font-size: 3.7vmin;
   display: flex;
   align-items: center;
   /* padding-right: 50px; */
@@ -122,7 +122,7 @@ export const NavLinks = styled(ScrollLink)`
   padding: 0 1rem;
   margin-left: 20px;
   height: 100%;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   /* border-bottom: #f72585 2px solid; */
 
   cursor: pointer;
