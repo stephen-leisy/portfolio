@@ -57,9 +57,9 @@ export const ProjectLinkContainer = styled.main`
   background: transparent;
   /* margin: 30px; */
 
-  @media screen and (max-width: 905px), screen and (max-height: 600px) {
+  /* @media screen and (max-width: 905px), screen and (max-height: 600px) {
     width: 50vh;
-  }
+  } */
 
   @media screen and (max-width: 345px), screen and (max-height: 600px) {
     width: 70vh;
@@ -85,7 +85,7 @@ export const ProjectImage = styled.img`
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 905px), screen and (max-height: 600px) {
+  @media screen and (max-width: 500px), screen and (max-height: 600px) {
     width: 19vh;
     height: 19vh;
     padding: 0 0;
