@@ -90,7 +90,7 @@ export const ProjectImage = styled.img`
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     width: 32vw;
     height: 32vw;
     padding: 0 0;
