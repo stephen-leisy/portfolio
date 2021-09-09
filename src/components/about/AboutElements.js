@@ -6,15 +6,15 @@ export const AboutContainer = styled.div`
   background-color: #f8f0e3;
   padding: 10px 0;
 
-  /* @media screen and (max-width: 1468px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1468px), screen and (max-height: 600px) {
     height: 103vh;
     width: 100%;
-  } */
+  }
 
-  /* @media screen and (max-width: 375px), screen and (max-height: 600px) {
+  @media screen and (max-width: 375px), screen and (max-height: 600px) {
     height: 113vh;
     width: 100%;
-  } */
+  }
 
   /* @media screen and (max-width: 1068px), screen and (max-height: 800px) {
     height: 173vh;
@@ -58,7 +58,7 @@ export const AboutMeWrapper = styled.div`
 export const AboutMeText = styled.p`
   width: 40%;
   font-family: 'Lato', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
   -webkit-text-stroke: 1.25px black;
   border: solid 3px black;
@@ -100,7 +100,7 @@ export const AboutHeader = styled.h1`
   /* padding-bottom: 40px; */
   font-family: 'Permanent Marker', cursive;
   color: #d434da;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 

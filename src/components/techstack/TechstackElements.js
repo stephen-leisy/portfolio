@@ -30,7 +30,7 @@ export const HeaderWrapper = styled.div`
 
 export const TechstackHeader = styled.h2`
   color: #d434da;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   -webkit-text-stroke: 0.25px black;
@@ -55,7 +55,7 @@ export const HeaderAndListBox = styled.div`
 
 export const Header = styled.h2`
   cursor: pointer;
-  font-size: ${({ listOpen }) => (listOpen ? '2.2rem' : '2rem')};
+  font-size: ${({ listOpen }) => (listOpen ? '2rem' : '1.8rem')};
   color: ${({ listOpen }) => (listOpen ? '#ff819e' : '#d434da')};
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
@@ -78,7 +78,7 @@ export const HiddenList = styled.ul`
 export const Item = styled.li`
   list-style-type: none;
   font-family: 'Lato', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #d434da;
   -webkit-text-stroke: 1.25px black;
   background: transparent;
