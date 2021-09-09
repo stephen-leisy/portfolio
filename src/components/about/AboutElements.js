@@ -43,7 +43,7 @@ export const AboutMeWrapper = styled.div`
   /* border: black 1px solid; */
   /* padding: 20px 0px; */
 
-  @media screen and (max-width: 1000px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1000px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,7 @@ export const AboutMeText = styled.p`
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
   padding: 40px;
 
-  @media screen and (max-width: 1000px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1000px) {
     font-size: 0.7rem;
     width: 80%;
     /* height: 20%; */
@@ -76,7 +76,7 @@ export const AboutMeText = styled.p`
     padding: 20px 30px;
   }
 
-  @media screen and (max-width: 375px), screen and (max-height: 600px) {
+  @media screen and (max-width: 375px) {
     width: 100%;
   }
 `;
@@ -104,7 +104,7 @@ export const AboutHeader = styled.h1`
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 
-  @media screen and (max-width: 1000px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1000px) {
     padding-top: 20px;
     padding-bottom: 0;
     padding-right: 40px;
@@ -120,7 +120,7 @@ export const MobileHeader = styled.h2`
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 
-  @media screen and (max-width: 1000px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1000px) {
     display: block;
   }
 `;

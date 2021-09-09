@@ -14,9 +14,11 @@ export const ProjectsBackground = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  @media screen and (max-width: 345px), screen and (max-height: 600px) {
+  @media screen and (max-width: 345px) {
     padding-top: 15px;
   }
+
+
 `;
 
 export const MyProjectsWrapper = styled.div`
@@ -42,7 +44,7 @@ export const ProjectsHeading = styled.h1`
   -webkit-text-stroke: 0.25px black;
   background: transparent;
 
-  @media screen and (max-width: 905px), screen and (max-height: 600px) {
+  @media screen and (max-width: 905px) {
     font-size: 1.2rem;
   }
 `;
@@ -55,13 +57,14 @@ export const ProjectLinkContainer = styled.main`
   justify-content: center;
   flex-wrap: wrap;
   background: transparent;
+
   /* margin: 30px; */
 
   /* @media screen and (max-width: 905px), screen and (max-height: 600px) {
     width: 50vh;
   } */
 
-  @media screen and (max-width: 345px), screen and (max-height: 600px) {
+  @media screen and (max-width: 345px) {
     width: 70vh;
   }
 `;
@@ -85,11 +88,16 @@ export const ProjectImage = styled.img`
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 375px), screen and (max-height: 600px) {
+  @media screen and (max-width: 375px) {
     width: 22vh;
     height: 22vh;
     padding: 0 0;
     margin: 0 0;
+  }
+
+  @media screen and (max-height: 500px) {
+    height: 24vh;
+    width: 24vh;
   }
 `;
 
@@ -100,11 +108,15 @@ export const ProjectTitle = styled.h2`
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   padding-top: 10px;
   background: transparent;
-  @media screen and (max-width: 905px), screen and (max-height: 600px) {
+  @media screen and (max-width: 905px) {
     /* width: 10vmin;
     height: 15vmin; */
     /* display: none; */
     font-size: 1rem;
+  }
+
+  @media screen and (max-height: 500px) {
+    font-size: 0.8rem;
   }
 `;
 
@@ -116,7 +128,7 @@ export const Project = styled.div`
   flex-direction: column;
   background: transparent;
 
-  @media screen and (max-width: 1580px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1580px) {
     margin: 0 20px;
   }
 `;

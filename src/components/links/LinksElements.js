@@ -4,6 +4,9 @@ export const LinksContainer = styled.div`
   height: 40vh;
   width: 100%;
   background-color: #f8f0e3;
+  @media screen and (max-height: 500px) {
+    height: 80vh;
+  }
 `;
 
 export const SocialButtons = styled.section`
@@ -30,5 +33,9 @@ export const SocialLink = styled.button`
 
   @media screen and (max-width: 375px), screen and (max-height: 600px) {
     font-size: 3.5rem;
+  }
+
+  @media screen and (max-height: 500px) {
+    font-size: 3rem;
   }
 `;
