@@ -85,9 +85,9 @@ export const ProjectImage = styled.img`
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 500px), screen and (max-height: 600px) {
-    width: 25vh;
-    height: 25vh;
+  @media screen and (max-width: 375px), screen and (max-height: 600px) {
+    width: 23vh;
+    height: 23vh;
     padding: 0 0;
     margin: 0 0;
   }
