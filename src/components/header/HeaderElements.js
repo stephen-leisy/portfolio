@@ -12,6 +12,7 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 3 rem;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   z-index: 10;
   overflow-x: hidden;
@@ -61,6 +62,7 @@ export const NavLogo = styled(RouterLink)`
   /* padding-right: 50px; */
   font-weight: bold;
   text-decoration: none;
+  overflow-x: visible;
 
   @media screen and (max-width: 768px) {
     font-size: 2rem;

@@ -6,6 +6,7 @@ export const TechstackWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   background: transparent;
+  overflow-x: visible;
 
   height: ${({
     languageListOpen,
@@ -26,6 +27,7 @@ export const HeaderWrapper = styled.div`
   display: flex;
   justify-content: center;
   background: transparent;
+  overflow-x: visible;
 `;
 
 export const TechstackHeader = styled.h2`
@@ -35,6 +37,7 @@ export const TechstackHeader = styled.h2`
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   -webkit-text-stroke: 0.25px black;
   background: transparent;
+  overflow-x: visible;
 
   @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1.2rem;
@@ -50,11 +53,13 @@ export const MyTechstack = styled.div`
 
   justify-content: center;
   align-items: flex-start;
+  overflow-x: visible;
 `;
 
 export const HeaderAndListBox = styled.div`
   margin: 0 10px;
   background: transparent;
+  overflow-x: visible;
 `;
 
 export const Header = styled.h2`
@@ -92,6 +97,7 @@ export const Item = styled.li`
   color: #d434da;
   -webkit-text-stroke: 1.25px black;
   background: transparent;
+  overflow-x: visible;
 
   @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1rem;
