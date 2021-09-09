@@ -135,7 +135,8 @@ export const NavLinks = styled(ScrollLink)`
   }
 
   @media screen and (max-width: 1000px) {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    padding-left: 20px;
   }
 `;
 
