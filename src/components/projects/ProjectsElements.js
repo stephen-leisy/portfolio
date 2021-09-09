@@ -62,13 +62,13 @@ export const ProjectLinkContainer = styled.main`
     width: 50vh;
   } */
 
-  @media screen and (max-width: 345px) {
+  @media screen and (max-width: 415px) {
     width: 70vh;
   }
 
-  @media screen and (max-width: 500px) {
+  /* @media screen and (max-width: 414px) {
     width: 100vw;
-  }
+  } */
 `;
 
 export const ProjectLink = styled.button`
