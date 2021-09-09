@@ -69,6 +69,7 @@ export const Header = styled.h2`
   color: ${({ listOpen }) => (listOpen ? '#ff819e' : '#d434da')};
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+  overflow-x: visible;
 
   background: transparent;
 
@@ -98,7 +99,7 @@ export const Item = styled.li`
   color: #d434da;
   -webkit-text-stroke: 1.25px black;
   background: transparent;
-  /* overflow-x: visible; */
+  overflow-x: visible;
 
   @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1rem;
