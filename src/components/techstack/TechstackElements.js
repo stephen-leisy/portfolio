@@ -36,7 +36,7 @@ export const TechstackHeader = styled.h2`
   -webkit-text-stroke: 0.25px black;
   background: transparent;
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 400px), screen and (max-height: 600px) {
     font-size: 1rem;
   }
 `;
@@ -55,17 +55,19 @@ export const HeaderAndListBox = styled.div`
 
 export const Header = styled.h2`
   cursor: pointer;
-  font-size: ${({ listOpen }) => (listOpen ? '2rem' : '1.8rem')};
+  font-size: ${({ listOpen }) => (listOpen ? '1.8rem' : '1.6rem')};
   color: ${({ listOpen }) => (listOpen ? '#ff819e' : '#d434da')};
   font-family: 'Permanent Marker', cursive;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
+
   background: transparent;
 
   &:hover {
     text-decoration: underline;
+    -webkit-text-stroke: 0.25px black;
   }
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 400px), screen and (max-height: 600px) {
     font-size: 0.8rem;
   }
 `;
@@ -83,7 +85,7 @@ export const Item = styled.li`
   -webkit-text-stroke: 1.25px black;
   background: transparent;
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 400px), screen and (max-height: 600px) {
     font-size: 0.8rem;
   }
 `;
