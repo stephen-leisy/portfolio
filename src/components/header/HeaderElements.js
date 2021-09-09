@@ -11,8 +11,8 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 3 rem;
-  position: sticky;
-  position: -webkit-sticky;
+  position: fixed;
+
   top: 0;
   z-index: 10;
   overflow-x: hidden;
