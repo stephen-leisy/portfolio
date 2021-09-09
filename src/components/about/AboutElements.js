@@ -5,6 +5,7 @@ export const AboutContainer = styled.div`
   width: 100%;
   background-color: #f8f0e3;
   padding: 10px 0;
+  overflow-x: hidden;
 
   @media screen and (max-width: 1468px), screen and (max-height: 600px) {
     height: 103vh;
