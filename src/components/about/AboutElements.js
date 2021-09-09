@@ -43,7 +43,7 @@ export const AboutMeWrapper = styled.div`
   /* border: black 1px solid; */
   /* padding: 20px 0px; */
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 868px), screen and (max-height: 600px) {
     display: flex;
     align-items: center;
     justify-content: center;
