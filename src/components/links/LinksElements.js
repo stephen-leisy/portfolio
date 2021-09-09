@@ -28,7 +28,7 @@ export const SocialLink = styled.button`
     color: #6bffff;
   }
 
-  @media screen and (max-width: 375px), screen and (max-height: 800px) {
+  @media screen and (max-width: 375px), screen and (max-height: 600px) {
     font-size: 3.5rem;
   }
 `;
