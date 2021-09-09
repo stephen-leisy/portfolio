@@ -16,6 +16,7 @@ export const SidebarContainer = styled.aside`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  overflow-x: visible;
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -34,6 +35,7 @@ export const Icon = styled.div`
 
 export const SidebarWrapper = styled.div`
   color: #fff;
+  overflow-x: visible;
 `;
 
 export const SidebarMenu = styled.ul`
@@ -65,12 +67,14 @@ export const SidebarLink = styled(ScrollLink)`
     color: #6bffff;
     transition: 0.2s ease-in-out;
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
+    text-decoration: underline;
   }
 `;
 
 export const SidebarButton = styled.div`
   display: felx;
   justify-content: center;
+  overflow-x: visible;
 `;
 
 export const SidebarRoute = styled(RouterLink)`
@@ -87,6 +91,7 @@ export const SidebarRoute = styled(RouterLink)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  overflow-x: visible;
 
   &:hover {
     transition: all 0.2s ease-in-out;
