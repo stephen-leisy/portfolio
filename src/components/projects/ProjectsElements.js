@@ -86,8 +86,8 @@ export const ProjectImage = styled.img`
   }
 
   @media screen and (max-width: 500px), screen and (max-height: 600px) {
-    width: 21vh;
-    height: 21vh;
+    width: 23vh;
+    height: 23vh;
     padding: 0 0;
     margin: 0 0;
   }
