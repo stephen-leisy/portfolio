@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-  height: 93vh;
+  height: 53vh;
   width: 100%;
   background-color: #f8f0e3;
   padding: 10px 0;
