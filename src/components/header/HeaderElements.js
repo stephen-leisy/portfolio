@@ -118,6 +118,7 @@ export const NavLinks = styled(ScrollLink)`
   flex-direction: column;
   text-decoration: none;
   padding: 0 1rem;
+  margin-left: 20px;
   height: 100%;
   font-size: 1.3rem;
   /* border-bottom: #f72585 2px solid; */

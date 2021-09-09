@@ -17,7 +17,7 @@ export const TechstackWrapper = styled.div`
       ? '45vh'
       : '25vh'};
 
-  @media screen and (min-width: 345px), screen and (max-height: 600px) {
+  @media screen and (min-width: 345px), screen and (max-height: 660px) {
     padding-top: 40px;
   }
 `;
@@ -36,7 +36,7 @@ export const TechstackHeader = styled.h2`
   -webkit-text-stroke: 0.25px black;
   background: transparent;
 
-  @media screen and (max-width: 752px), screen and (max-height: 600px) {
+  @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1.2rem;
   }
 `;
@@ -67,7 +67,7 @@ export const Header = styled.h2`
     -webkit-text-stroke: 0.25px black;
   }
 
-  @media screen and (max-width: 752px), screen and (max-height: 600px) {
+  @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1rem;
   }
 `;
@@ -85,7 +85,7 @@ export const Item = styled.li`
   -webkit-text-stroke: 1.25px black;
   background: transparent;
 
-  @media screen and (max-width: 752px), screen and (max-height: 600px) {
+  @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1rem;
   }
 `;
