@@ -31,7 +31,7 @@ export const LandingText = styled.h1`
   font-size: 12vmin;
   margin-left: 60px;
 
-  @media screen and (max-width: 868px) {
+  @media screen and (max-width: 1080px) {
     font-size: 8.5vmin;
     margin-left: 20px;
     text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
@@ -57,7 +57,7 @@ export const DelayText = styled.h3`
   font-size: 12vmin;
   margin-left: 60px;
 
-  @media screen and (max-width: 868px) {
+  @media screen and (max-width: 1080px) {
     font-size: 8.5vmin;
     margin-left: 20px;
     text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
