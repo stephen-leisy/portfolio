@@ -67,7 +67,7 @@ export const NavLogo = styled(RouterLink)`
   }
 
   @media screen and (max-width: 1000px) {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 `;
 
@@ -135,7 +135,7 @@ export const NavLinks = styled(ScrollLink)`
   }
 
   @media screen and (max-width: 1000px) {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 `;
 
@@ -168,9 +168,9 @@ export const ResumeLink = styled(RouterLink)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    -webkit-text-stroke: 0.25px black;
 
     color: #6bffff;
+    -webkit-text-stroke: 0.25px black;
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
   }
 
