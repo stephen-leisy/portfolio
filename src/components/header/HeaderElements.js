@@ -54,7 +54,7 @@ export const NavLogo = styled(RouterLink)`
   background: transparent;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   justify-self: flex-start;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-size: 4vmin;
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@ export const NavLogo = styled(RouterLink)`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: block;
     position: absolute;
     top: 0;
@@ -96,7 +96,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -134,10 +134,10 @@ export const NavLinks = styled(ScrollLink)`
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
   }
 
-  @media screen and (max-width: 1000px) {
+  /* @media screen and (max-width: 1000px) {
     font-size: 0.9rem;
     padding-left: 20px;
-  }
+  } */
 `;
 
 export const ResumeButton = styled.nav`
@@ -145,7 +145,7 @@ export const ResumeButton = styled.nav`
   align-items: center;
   border: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -175,9 +175,9 @@ export const ResumeLink = styled(RouterLink)`
     text-shadow: -0.0925rem -0.0925rem 0 #f72585, 0.0925rem 0.0925rem 0 #ff819e;
   }
 
-  @media screen and (max-width: 1000px) {
+  /* @media screen and (max-width: 1000px) {
     font-size: 25px;
-  }
+  } */
 `;
 
 // old pink color #f72585
