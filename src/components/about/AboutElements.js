@@ -11,10 +11,10 @@ export const AboutContainer = styled.div`
     width: 100%;
   } */
 
-  @media screen and (max-width: 375px), screen and (max-height: 600px) {
+  /* @media screen and (max-width: 375px), screen and (max-height: 600px) {
     height: 113vh;
     width: 100%;
-  }
+  } */
 
   /* @media screen and (max-width: 1068px), screen and (max-height: 800px) {
     height: 173vh;
