@@ -36,7 +36,7 @@ export const TechstackHeader = styled.h2`
   -webkit-text-stroke: 0.25px black;
   background: transparent;
 
-  @media screen and (max-width: 400px), screen and (max-height: 600px) {
+  @media screen and (max-width: 520px), screen and (max-height: 600px) {
     font-size: 1rem;
   }
 `;
@@ -67,7 +67,7 @@ export const Header = styled.h2`
     -webkit-text-stroke: 0.25px black;
   }
 
-  @media screen and (max-width: 400px), screen and (max-height: 600px) {
+  @media screen and (max-width: 520px), screen and (max-height: 600px) {
     font-size: 0.8rem;
   }
 `;
@@ -85,7 +85,7 @@ export const Item = styled.li`
   -webkit-text-stroke: 1.25px black;
   background: transparent;
 
-  @media screen and (max-width: 400px), screen and (max-height: 600px) {
+  @media screen and (max-width: 520px), screen and (max-height: 600px) {
     font-size: 0.8rem;
   }
 `;
