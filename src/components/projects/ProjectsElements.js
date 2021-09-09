@@ -42,7 +42,7 @@ export const ProjectsHeading = styled.h1`
   -webkit-text-stroke: 0.25px black;
   background: transparent;
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 905px), screen and (max-height: 600px) {
     font-size: 1.2rem;
   }
 `;
@@ -57,7 +57,7 @@ export const ProjectLinkContainer = styled.main`
   background: transparent;
   /* margin: 30px; */
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 905px), screen and (max-height: 600px) {
     width: 50vh;
   }
 
@@ -85,7 +85,7 @@ export const ProjectImage = styled.img`
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 905px), screen and (max-height: 600px) {
     width: 19vh;
     height: 19vh;
     padding: 0 0;
@@ -100,7 +100,7 @@ export const ProjectTitle = styled.h2`
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
   padding-top: 10px;
   background: transparent;
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 905px), screen and (max-height: 600px) {
     /* width: 10vmin;
     height: 15vmin; */
     /* display: none; */
