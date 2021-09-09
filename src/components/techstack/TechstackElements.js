@@ -39,6 +39,10 @@ export const TechstackHeader = styled.h2`
   @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1.2rem;
   }
+
+  @media screen and (max-width: 500px), screen and (max-height: 660px) {
+    font-size: 1rem;
+  }
 `;
 
 export const MyTechstack = styled.div`
@@ -70,6 +74,10 @@ export const Header = styled.h2`
   @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1rem;
   }
+
+  @media screen and (max-width: 500px), screen and (max-height: 660px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const HiddenList = styled.ul`
@@ -87,5 +95,9 @@ export const Item = styled.li`
 
   @media screen and (max-width: 752px), screen and (max-height: 660px) {
     font-size: 1rem;
+  }
+
+  @media screen and (max-width: 500px), screen and (max-height: 660px) {
+    font-size: 0.8rem;
   }
 `;

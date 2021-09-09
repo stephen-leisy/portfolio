@@ -17,8 +17,6 @@ export const ProjectsBackground = styled.div`
   @media screen and (max-width: 345px) {
     padding-top: 15px;
   }
-
-
 `;
 
 export const MyProjectsWrapper = styled.div`
@@ -67,6 +65,10 @@ export const ProjectLinkContainer = styled.main`
   @media screen and (max-width: 345px) {
     width: 70vh;
   }
+
+  @media screen and (max-width: 500px) {
+    width: 100vw;
+  }
 `;
 
 export const ProjectLink = styled.button`
@@ -89,10 +91,17 @@ export const ProjectImage = styled.img`
   }
 
   @media screen and (max-width: 375px) {
-    width: 22vh;
-    height: 22vh;
+    width: 32vw;
+    height: 32vw;
     padding: 0 0;
     margin: 0 0;
+  }
+
+  @media screen and (max-width: 500px) {
+    /* width: 50vw;
+    height: 50vw;
+    padding: 0 0;
+    margin: 0 0; */
   }
 
   @media screen and (max-height: 500px) {
