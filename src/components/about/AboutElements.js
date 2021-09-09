@@ -66,7 +66,7 @@ export const AboutMeText = styled.p`
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
   padding: 40px;
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1000px), screen and (max-height: 600px) {
     font-size: 0.7rem;
     width: 80%;
     /* height: 20%; */
@@ -88,7 +88,7 @@ export const AboutMePic = styled.img`
   border: solid 3px black;
   box-shadow: -0.3625rem -0.2625rem 0 #6bffff, 0.3625rem 0.2625rem 0 #d434da;
 
-  @media screen and (max-width: 1268px) {
+  @media screen and (max-width: 1000px) {
     margin-top: 30px;
     /* height: 35vmin;
     width: 35vmin;
@@ -104,7 +104,7 @@ export const AboutHeader = styled.h1`
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1000px), screen and (max-height: 600px) {
     padding-top: 20px;
     padding-bottom: 0;
     padding-right: 40px;
@@ -120,7 +120,7 @@ export const MobileHeader = styled.h2`
   -webkit-text-stroke: 0.25px black;
   text-shadow: -0.0925rem -0.0925rem 0 #6bffff, 0.0925rem 0.0925rem 0 #ff819e;
 
-  @media screen and (max-width: 1268px), screen and (max-height: 600px) {
+  @media screen and (max-width: 1000px), screen and (max-height: 600px) {
     display: block;
   }
 `;
