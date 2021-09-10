@@ -40,7 +40,9 @@ export default function Header({ toggle }) {
             </NavItem>
           </NavMenu>
           <ResumeButton>
-            <ResumeLink to="/resume">my resume</ResumeLink>
+            <ResumeLink to="Resume2.pdf" target="_blank">
+              my resume
+            </ResumeLink>
           </ResumeButton>
         </NavBarContainer>
       </Nav>

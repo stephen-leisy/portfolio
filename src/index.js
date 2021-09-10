@@ -8,7 +8,7 @@ render(
   <Router>
     <Switch>
       <Route exact path="/" component={App} />
-      <Route exact path="/resume" component={Resume} />
+      <Route exact path="/resume.pdf" component={Resume} />
     </Switch>
   </Router>,
 
