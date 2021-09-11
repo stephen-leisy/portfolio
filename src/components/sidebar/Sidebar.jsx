@@ -31,7 +31,9 @@ export default function Sidebar({ isOpen, toggle }) {
           </SidebarLink>
         </SidebarMenu>
         <SidebarButton>
-          <SidebarRoute to="/resume">my resume</SidebarRoute>
+          <SidebarRoute to="Resume2.pdf" target="_blank">
+            my resume
+          </SidebarRoute>
         </SidebarButton>
       </SidebarWrapper>
     </SidebarContainer>
